@@ -1,0 +1,13 @@
+.alert{
+    width: 300px;
+    height: auto;
+    border: 2px solid rgb(143, 35, 35);
+    margin: 10px auto;
+    border-radius: 5px;
+    background-color: rgb(243, 138, 138);
+}
+
+.alert p{
+    text-align: center;
+    padding: 5px;
+}

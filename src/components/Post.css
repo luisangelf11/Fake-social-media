@@ -1,0 +1,46 @@
+.postCon{
+    width: 80%;
+    height: auto;
+    padding: 5px;
+    border-bottom: 1px solid #fff;
+    margin: 10px auto;
+}
+
+.postCon img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.postCon p{
+    font-size: 14px;
+    text-align: justify;
+}
+
+.box-top{
+    width:100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.box-top h4{
+    padding: -7px;
+}
+
+.box-icons{
+    width: 100%;
+    height: auto;
+}
+
+.iconPost{
+    font-size: 16px;
+    padding: 3px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.iconPost:hover{
+    color: aqua;
+}

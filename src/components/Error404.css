@@ -1,0 +1,22 @@
+.error-container{
+    width: 100%;
+    height: auto;
+}
+
+.error-container img{
+    display: block;
+    margin:3rem auto;
+    height: auto;
+}
+
+.back{
+    text-align: center;
+    color: #fff;
+}
+
+.back-link{
+    color: aqua;
+    font-weight: 500;
+    padding: 10px;
+    text-decoration: none;
+}
