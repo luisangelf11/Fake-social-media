@@ -20,7 +20,7 @@ function App() {
           } />
           <Route path="/Fake-social-media/login" element={<Login />} />
           <Route path="/Fake-social-media/register" element={<Register />} />
-          <Route path="*" element={<Error404 />}/> 
+          <Route path="/Fake-social-media/*" element={<Error404 />}/> 
         </Routes>
       </AuthProvider>
     </div>
