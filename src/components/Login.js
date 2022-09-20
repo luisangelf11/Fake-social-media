@@ -35,7 +35,7 @@ export default function Login() {
   const clickLoginWithGoogle = async () => {
     try {
       await loginWithGoogle();
-      navigate("/");
+      navigate("/Fake-social-media");
     } catch (err) {
       setError(err.message);
     }
@@ -62,7 +62,7 @@ export default function Login() {
         <button className="loginBtn">Login</button>
       </form>
       <p>
-        Don't have an account? <Link className="url" to="/register">Register</Link>
+        Don't have an account? <Link className="url" to="/Fake-social-media/register">Register</Link>
       </p>
       <button className="google" onClick={clickLoginWithGoogle}>Login with Google</button>
     </div>

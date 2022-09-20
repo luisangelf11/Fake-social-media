@@ -13,13 +13,13 @@ function App() {
     <div>
       <AuthProvider>
         <Routes>
-          <Route path="/" element={
+          <Route path="/Fake-social-media" element={
             <RouteProtected>
               <Home />
             </RouteProtected>
           } />
-          <Route path="/login" element={<Login />} />
-          <Route path="/register" element={<Register />} />
+          <Route path="/Fake-social-media/login" element={<Login />} />
+          <Route path="/Fake-social-media/register" element={<Register />} />
           <Route path="*" element={<Error404 />}/> 
         </Routes>
       </AuthProvider>

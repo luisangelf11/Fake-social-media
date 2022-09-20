@@ -4,6 +4,6 @@ import {useAuth} from '../context/AuthProvider'
 
 export default function RouteProtected({children}) {
     const {user} = useAuth();
-  if(!user) return <Navigate to="/login"></Navigate>
+  if(!user) return <Navigate to="/Fake-social-media/login"></Navigate>
   if(user) return <>{children}</>
 }
