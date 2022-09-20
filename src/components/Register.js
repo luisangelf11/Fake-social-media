@@ -25,8 +25,7 @@ export default function Register() {
     e.preventDefault();
     try{
       await signup(user.email, user.password);
-      navigate("/");
-
+      navigate("/Fake-social-media");
     }
     catch(err){
       setError(err.message);

@@ -26,7 +26,7 @@ export default function Login() {
     e.preventDefault();
     try {
       await login(user.email, user.password);
-      navigate("/");
+      navigate("/Fake-social-media");
     } catch (err) {
       setError(err.message);
     }
