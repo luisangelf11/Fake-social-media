@@ -7,7 +7,7 @@ export default function Error404() {
   return (
     <div className='error-container'>
         <img src={ErrorPhoto} alt='Error_404'/>
-        <p className='back'>Do you want to go back to the login? <Link className='back-link' to='/login'>Go to login</Link></p>
+        <p className='back'>Do you want to go back to the login? <Link className='back-link' to='/Fake-social-media/login'>Go to login</Link></p>
     </div>
   )
 }
